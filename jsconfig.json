@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "services/*": ["./src/services/*"],
+      "resources/*": ["./src/services/resources/*"],
+      "responses/*": ["./src/services/responses/*"],
+      "utils/*": ["./src/utils/*"],
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

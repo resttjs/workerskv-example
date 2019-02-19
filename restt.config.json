@@ -1,0 +1,23 @@
+{
+  "cloudflare": {
+    "account": "",
+    "email": "",
+    "key": "",
+    "zone": "",
+    "enterprise": false,
+    "script": "",
+    "routes": {
+      "live": "https://workers.yourdomain.io",
+      "cache": "https://workers-cache.yourdomain.io"
+    }
+  },
+  "cloudworker": {
+    "debug": false,
+    "port": 3000
+  },
+  "workerskv": {
+    "namespaces": [
+      "Customers"
+    ]
+  }
+}

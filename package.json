@@ -1,0 +1,23 @@
+{
+  "name": "restt-workerskv-customers",
+  "version": "0.0.1",
+  "description": "An example project using Restt and WorkersKV",
+  "scripts": {
+    "serve": "restt serve src/main.js",
+    "deploy": "restt deploy src/main.js"
+  },
+  "homepage": "https://github.com/resttjs/workerskv-example",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resttjs/workerskv-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/resttjs/workerskv-example/issues"
+  },
+  "author": "Daniel Larkin <daniel@larkin.nz>",
+  "license": "MIT",
+  "dependencies": {
+    "restt": "^0.1.0",
+    "restt-cli": "^0.1.0"
+  }
+}
